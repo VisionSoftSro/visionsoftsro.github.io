@@ -13,10 +13,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Build
-      run: |
-        npm install
-        npm run-script build
-        git config --global user.email "herisn23@gmail.com"
-        git config --global user.name "herisn23"
-        npm run deploy
+    - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: sources # The branch the action should deploy from.
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: . # The folder the action should deploy.
