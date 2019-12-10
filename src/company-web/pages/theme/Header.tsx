@@ -92,7 +92,7 @@ export class Header extends React.Component<Props> {
                         <div className="row vcenter">
                             <div className="col-md-6 header-content-left">
                                 <h1>Vision Soft</h1>
-                                <h3 className="mb-3">BUDOUCNOST MÍŘÍ K MYSLI</h3>
+                                <h3 className="mb-3">BUDOUCNOST MÍŘÍ K MYSLI blabla</h3>
                                 <p className="header-text hide-mobile">Vision Soft je česká společnost věnující se vývoji online aplikací spojujících inovátorské myšlenky s řešením potřeb uživatelů internetu.</p>
                                 {/*<a className="btn btn-info mr-3 smooth-scroll" href="#about">Learn More</a>*/}
                                 {/*<a className="btn btn-info mr-3 smooth-scroll" href="#services">Services</a>*/}
