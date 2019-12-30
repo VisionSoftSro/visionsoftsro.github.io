@@ -58,11 +58,11 @@ class Root extends React.Component<LocaleState> {
                         <div className="col-lg-8 footer-left-area">
                             <p>© {moment().format('YYYY')} <b>Vision Soft s.r.o</b></p>
                         </div>
-                        <div className="col-lg-4 social-icons footer-right-area">
-                            <a href="#x" className="btn-social text-white"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#x" className="btn-social"><i className="fab fa-twitter"></i></a>
-                            <a href="#x" className="btn-social"><i className="fab fa-google-plus-g"></i></a>
-                        </div>
+                        {/*<div className="col-lg-4 social-icons footer-right-area">*/}
+                        {/*    <a href="#x" className="btn-social text-white"><i className="fab fa-facebook-f"></i></a>*/}
+                        {/*    <a href="#x" className="btn-social"><i className="fab fa-twitter"></i></a>*/}
+                        {/*    <a href="#x" className="btn-social"><i className="fab fa-google-plus-g"></i></a>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </footer>

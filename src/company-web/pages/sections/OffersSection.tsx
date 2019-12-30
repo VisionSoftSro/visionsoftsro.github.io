@@ -7,6 +7,7 @@ import {Modal} from "react-bootstrap";
 import {Form, FormButton, FormField} from "../../../common/component/form/Form";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import * as faIcon from "@fortawesome/free-solid-svg-icons";
+import config from "../../../Config";
 
 
 interface PopupProps {
@@ -56,15 +57,7 @@ class DetailPopup extends React.Component<PopupProps, { show: boolean }> {
                            <h6>Máte zájem o nabídku?</h6>
                        </div>
                        <div className={"row"}>
-                           Zanechte nám Váš kontakt a my se obratem ozveme.
-                       </div>
-                       <div className={"row"}>
-                           <div className="input-group mt-3 mb-3">
-                               <input type="text" className="form-control border-faded mr-3" placeholder="Emailová adresa"/>
-                               <span className="input-group-btn">
-                            <a href="#x" className="btn btn-w-icon btn-info"><span><FontAwesomeIcon icon={faIcon.faPaperPlane}/></span></a>
-                        </span>
-                           </div>
+                           Napište nám na&nbsp;<a href={`mailto:${config.companyEmail}?subject=${this.props.title}`}> {config.companyEmail}</a>
                        </div>
                    </div>
 
@@ -172,6 +165,7 @@ export class OffersSection extends React.Component<SectionComponentProps, State>
                                 čech <strong>Směr Sever</strong>?
                             </p>
                             <div className="spacer">&nbsp;</div>
+                            <Link href={() => this.showPopup(0)} className={"btn btn-white m-1"}>Více</Link>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -188,6 +182,7 @@ export class OffersSection extends React.Component<SectionComponentProps, State>
                                 zákazníkům.
                             </p>
                             <div className="spacer">&nbsp;</div>
+                            <Link href={() => this.showPopup(1)} className={"btn btn-white m-1"}>Více</Link>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -202,22 +197,6 @@ export class OffersSection extends React.Component<SectionComponentProps, State>
                                 zaměstnancům nabízet efektivní a komfortní služby?
                             </p>
                             <div className="spacer">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="promo-box text-left inner-space">
-                            <Link href={() => this.showPopup(0)} className={"btn btn-white m-1"}>Více</Link>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="promo-box text-center inner-space bg-primary">
-                            <Link href={() => this.showPopup(1)} className={"btn btn-white m-1"}>Více</Link>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="promo-box text-right inner-space">
                             <Link href={() => this.showPopup(2)} className={"btn btn-white m-1"}>Více</Link>
                         </div>
                     </div>

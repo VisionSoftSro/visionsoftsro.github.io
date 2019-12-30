@@ -7,6 +7,7 @@ import cs from 'classnames';
 import Wrapper from "../../../common/component/Wrapper";
 import {Link} from "../../../common/component/Link";
 import {SectionType} from "./Sections";
+import config from "../../../Config";
 
 interface Props {
     sections:Array<SectionType>
@@ -51,7 +52,8 @@ export class Header extends React.Component<Props> {
                                         {/*<FontAwesomeIcon icon={faIcon.faPhone} className={"fa text-white mr-1"}/>*/}
                                         {/*<span><b>0123 456 7890</b></span>*/}
                                         <FontAwesomeIcon icon={faIcon.faEnvelope} className={"fa text-white mr-1"}/>
-                                        <span><b>info@vision-soft.cz</b></span>
+                                        <span><a
+                                            href={`mailto:${config.companyEmail}`} className={"text-white"}><b>{config.companyEmail}</b></a></span>
                                     </p>
                                 </div>
                             </div>
@@ -92,7 +94,7 @@ export class Header extends React.Component<Props> {
                         <div className="row vcenter">
                             <div className="col-md-6 header-content-left">
                                 <h1>Vision Soft</h1>
-                                <h3 className="mb-3">BUDOUCNOST MÍŘÍ K MYSLI blabla</h3>
+                                <h3 className="mb-3">BUDOUCNOST MÍŘÍ K MYSLI</h3>
                                 <p className="header-text hide-mobile">Vision Soft je česká společnost věnující se vývoji online aplikací spojujících inovátorské myšlenky s řešením potřeb uživatelů internetu.</p>
                                 {/*<a className="btn btn-info mr-3 smooth-scroll" href="#about">Learn More</a>*/}
                                 {/*<a className="btn btn-info mr-3 smooth-scroll" href="#services">Services</a>*/}

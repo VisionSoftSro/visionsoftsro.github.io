@@ -26,14 +26,12 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                 <div className="row vcenter">
                     <div className="col-lg-6 lightbox">
                         <div className="video-testimonial">
-                            <img src={AssetCache.Image.SSO} alt="" className="video-testimonial-image"/>
+                            <img src={AssetCache.Image.SMERSERVER} alt="" className="video-testimonial-image"/>
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <h3>Seznam se Online</h3>
-                        Seznamování přes internet je velký fenomén dnešní doby. Seznam se Online je bezkonkurenční česká online seznamka cílená na snadné seznámení.
-                        Mezi hlavní přednosti a výhody seznamky proti konkurenci patří nulové poplatky, transparentnost všech funkcí
-                        a rychlé založení profilu bez zdlouhavého vyplňování.
+                        <h3>Směr sever – Databáze výletních destinací</h3>
+                        Web zaměřující se na zájmové a výletní aktivity v Severních čechách.
                     </div>
                 </div>
             </div>
