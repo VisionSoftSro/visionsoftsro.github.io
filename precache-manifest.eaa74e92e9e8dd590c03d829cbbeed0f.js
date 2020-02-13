@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93831d1f0a4e9fa34a8680d7f70f09a7",
+    "revision": "d86b5e8dfd8d1de65432c3a6746d493f",
     "url": "/index.html"
   },
   {
-    "revision": "5fcf1362aa6b134bd004",
-    "url": "/static/css/2.08d04650.chunk.css"
+    "revision": "6770c73426b7ae6f9434",
+    "url": "/static/css/2.87dbb54d.chunk.css"
   },
   {
-    "revision": "25971f430ac678625aaf",
-    "url": "/static/css/main.683ea70d.chunk.css"
+    "revision": "5db0f0f026c79b3f6556",
+    "url": "/static/css/main.013668a4.chunk.css"
   },
   {
     "revision": "a4d31128b633bc0b1cc1f18a34fb3851",
@@ -24,24 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/font/Material-Design-Iconic-Font.d2a55d33.woff"
   },
   {
-    "revision": "5fcf1362aa6b134bd004",
-    "url": "/static/js/2.13c0c917.chunk.js"
+    "revision": "6770c73426b7ae6f9434",
+    "url": "/static/js/2.df0422b3.chunk.js"
   },
   {
-    "revision": "25971f430ac678625aaf",
-    "url": "/static/js/main.35d090f0.chunk.js"
+    "revision": "5db0f0f026c79b3f6556",
+    "url": "/static/js/main.5d318742.chunk.js"
   },
   {
     "revision": "aca7b42372bd08e9824e",
     "url": "/static/js/runtime~main.bb530d43.js"
   },
   {
-    "revision": "0e89ae54a545a5d6c7732976e281067b",
-    "url": "/static/media/bg-img-small.0e89ae54.jpg"
-  },
-  {
-    "revision": "61f1ee2ab88bbdc3f5f02afc39f9d6db",
-    "url": "/static/media/bg-img.61f1ee2a.jpg"
+    "revision": "54d9c9acc384a9c23517d08a2fddd970",
+    "url": "/static/media/dan.54d9c9ac.jpg"
   },
   {
     "revision": "cc2c22646d34ffb171203ae171d41124",
@@ -56,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/header-agency.e5e3f7e9.jpg"
   },
   {
-    "revision": "8b31fe7831a743ec023c92608866cf86",
-    "url": "/static/media/header-home.8b31fe78.jpg"
-  },
-  {
     "revision": "65165c2a45fca24adbbfa4b60c2c130b",
     "url": "/static/media/header-portfolio.65165c2a.jpg"
   },
@@ -68,12 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/idea-icon-white.0a3649d1.png"
   },
   {
-    "revision": "9f8658ca854f4773841e5faea3b4c5c8",
-    "url": "/static/media/laptop.9f8658ca.png"
+    "revision": "b093fbb6957469a30f771235d2e750f7",
+    "url": "/static/media/laptop.b093fbb6.png"
   },
   {
     "revision": "2c569cdf8f87194bbbdff4d7d3260b2d",
     "url": "/static/media/logo.2c569cdf.png"
+  },
+  {
+    "revision": "08a751c7db5b61d2e3554b7d16a389bb",
+    "url": "/static/media/lukas.08a751c7.jpg"
   },
   {
     "revision": "c63c49afb628aae52bd21fcdc1861559",
@@ -88,16 +84,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/menu.0214f762.png"
   },
   {
+    "revision": "b9843ebdf00d1d0f6216ffacf6a5bea6",
+    "url": "/static/media/oslavyadarky.b9843ebd.jpg"
+  },
+  {
     "revision": "18df50301c2e30abe1b2a45c55198428",
     "url": "/static/media/phone-icon-white.18df5030.png"
   },
   {
-    "revision": "f1bd8436265e132da8bdcf4b0d4a67a1",
-    "url": "/static/media/responsive-icon-white.f1bd8436.png"
+    "revision": "aeadf434a8941ad8fa93bd7397523a80",
+    "url": "/static/media/pozadi_dark.aeadf434.jpg"
   },
   {
-    "revision": "43715aef5e08471bee7d980a58dfbd64",
-    "url": "/static/media/sever.43715aef.png"
+    "revision": "22c07fda6ea6d7a5ff65f6c732b670bf",
+    "url": "/static/media/pozadi_small_dark.22c07fda.jpg"
+  },
+  {
+    "revision": "f1bd8436265e132da8bdcf4b0d4a67a1",
+    "url": "/static/media/responsive-icon-white.f1bd8436.png"
   },
   {
     "revision": "88d143504d58aeff67d99e661f91b0f0",
@@ -110,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6b6bae200f56383755f33d8397077604",
     "url": "/static/media/slide3.6b6bae20.jpg"
+  },
+  {
+    "revision": "ea6fb0e974c31a9abce35d61aacad34e",
+    "url": "/static/media/smersever.ea6fb0e9.jpg"
   },
   {
     "revision": "680b07e64a723757ec265bccbf091d00",
