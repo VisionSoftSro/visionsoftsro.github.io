@@ -3,7 +3,10 @@ export const AssetCache = {
     Logo: require('./assets/images/logo.png'),
     Laptop:require('./assets/images/laptop.png'),
     SSO:require('./assets/images/sso.png'),
-    SMERSERVER:require('./assets/images/sever.png'),
+    OSLAVYADARKY:require('./assets/images/oslavyadarky.jpg'),
+    SMERSEVER:require('./assets/images/smersever.jpg'),
+    LUKAS:require('./assets/images/lukas.jpg'),
+    DAN:require('./assets/images/dan.jpg'),
     Icons: {
       Map:require('./assets/images/icons/map-icon-white.png'),
       Phone:require('./assets/images/icons/phone-icon-white.png'),

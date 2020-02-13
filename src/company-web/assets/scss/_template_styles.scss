@@ -66,12 +66,12 @@ section.has-scroll-top {
     background-position: center;
     background-size: cover;
     background-color: $primary;
-    background-image: url("../images/bg-img.jpg");
+    background-image: url("../images/pozadi_dark.jpg");
     padding: 150px 0;
 }
 
 .parallax-section.small {
-    background-image: url("../images/bg-img-small.jpg");
+    background-image: url("../images/pozadi_small_dark.jpg");
     padding: 70px 0;
 }
 
@@ -107,7 +107,7 @@ header {
 }
 
 header.home-header {
-    background-image: url("../images/header-home.jpg");
+    background-image: url("../images/pozadi_dark.jpg");
     padding: 30px 0;
 }
 
@@ -508,7 +508,7 @@ ul.portfolio.info-effect {
 }
 
 .portfolio.info-effect figure h2.hover-title {
-    word-spacing: -0.15rem; 
+    word-spacing: -0.15rem;
 }
 
 .portfolio.info-effect figure h2 span {

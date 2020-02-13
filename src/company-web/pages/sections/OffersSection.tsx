@@ -125,7 +125,7 @@ const createPopupProps = (): Array<PopupProps> => (
             text: (
                 <div>
                     <FontAwesomeIcon icon={faIcon.faBookmark} /> Máte starý systém, který se už špatně udržuje a přidávání nových funkcí je zdlouhavé a drahé?<br/>
-                    <FontAwesomeIcon icon={faIcon.faBookmark} /> Funguje vaše podnikání stále papírovou formou a rádi byste jej přenesli do digitálního prosředí?<br/><br/>
+                    <FontAwesomeIcon icon={faIcon.faBookmark} /> Funguje vaše podnikání stále papírovou formou a rádi byste jej přenesli do digitálního prostředí?<br/><br/>
 
                     <strong>V tom případě se obraťte na nás a my Vám rádi pomůžeme.</strong><br/><br/>
 

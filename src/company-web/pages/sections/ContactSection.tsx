@@ -10,43 +10,49 @@ export class ContactSection extends React.Component<SectionComponentProps> {
 
     render() {
         return <Wrapper>
-            {/*<section id="team" className="has-scroll-top">*/}
-            {/*    <div className="container">*/}
-            {/*        <h2 className="text-center">Náš Tým</h2>*/}
-            {/*        <div className="spacer spacer-line border-primary">&nbsp;</div>*/}
-            {/*        <div className="spacer-2x">&nbsp;</div>*/}
-            {/*        <div className="row">*/}
-            {/*            <div className="col-md-4 offset-md-2">*/}
-            {/*                <div className="team block image-block text-center">*/}
-            {/*                    <img src={AssetCache.Image.SSO} alt=""/>*/}
-            {/*                    <div className="team-content inner-space bg-white">*/}
-            {/*                        <h5 className="box-title">Daniel Rous</h5>*/}
-            {/*                        <h6 className="m-2 text-sm text-muted">CEO</h6>*/}
-            {/*                        <div className="social-icons">*/}
-            {/*                            <a href="#x" className="btn-social btn-facebook-link p-2"><FontAwesomeIcon icon={faBrand.faFacebook}/></a>*/}
-            {/*                        </div>*/}
-            {/*                    </div>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*            <div className="col-md-4">*/}
-            {/*                <div className="team block image-block text-center">*/}
-            {/*                    <img src={AssetCache.Image.SSO} alt=""/>*/}
-            {/*                    <div className="team-content inner-space bg-white">*/}
-            {/*                        <h5 className="box-title">Lukáš Treml</h5>*/}
-            {/*                        <h6 className="m-2 text-sm text-muted">CTO / Programátor</h6>*/}
-            {/*                        <div className="social-icons">*/}
-            {/*                            <a href="#x" className="btn-social btn-facebook-link p-2"><FontAwesomeIcon icon={faBrand.faFacebook}/></a>*/}
-            {/*                        </div>*/}
-            {/*                    </div>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
+            <section id="team" className="has-scroll-top">
+                <div className="container">
+                    <h2 className="text-center">Náš Tým</h2>
+                    <div className="spacer spacer-line border-primary">&nbsp;</div>
+                    <div className="spacer-2x">&nbsp;</div>
+                    <div className="row">
+                        <div className="col-md-4 offset-md-2">
+                            <div className="team block image-block text-center">
+                                <img src={AssetCache.Image.DAN} alt=""/>
+                                <div className="team-content inner-space bg-white">
+                                    <h5 className="box-title">Daniel Rous</h5>
+                                    <h6 className="m-2 text-sm text-muted">CEO</h6>
+                                    <p>(řízení projektů, marketing, finance)</p>
+                                    <p>Telefon: <a href="tel:+420 774 861 500">+420 774 861 500</a></p>
+                                    <p>Email: <a href={`mailto:daniel.rous@vision-soft.cz`}>daniel.rous@vision-soft.cz</a></p>
+                                    {/*<div className="social-icons">*/}
+                                        {/*<a href="#x" className="btn-social btn-facebook-link p-2"><FontAwesomeIcon icon={faBrand.faFacebook}/></a>*/}
+                                    {/*</div>*/}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="team block image-block text-center">
+                                <img src={AssetCache.Image.LUKAS} alt=""/>
+                                <div className="team-content inner-space bg-white">
+                                    <h5 className="box-title">Lukáš Treml</h5>
+                                    <h6 className="m-2 text-sm text-muted">CTO / Programátor</h6>
+                                    <p>(řízení projektů, informační technologie, vývoj)</p>
+                                    <p>Telefon: <a href="tel:+420 774 861 500">+420 774 861 500</a></p>
+                                    <p>Email: <a href={`mailto:lukas.treml@vision-soft.cz`}>lukas.treml@vision-soft.cz</a></p>
+                                    {/*<div className="social-icons">*/}
+                                        {/*<a href="#x" className="btn-social btn-facebook-link p-2"><FontAwesomeIcon icon={faBrand.faFacebook}/></a>*/}
+                                    {/*</div>*/}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="contact" className="parallax-section small parallax dark">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className="promo-box inner-space text-center">
                                 <img src={AssetCache.Image.Icons.Map} alt="" className="promo-box-icon mb-3"/>
                                 <h5 className="box-title">ADRESA</h5>
@@ -54,15 +60,15 @@ export class ContactSection extends React.Component<SectionComponentProps> {
                             </div>
                         </div>
 
-                        {/*<div className="col-md-4">*/}
-                        {/*    <div className="promo-box inner-space text-center">*/}
-                        {/*        <img src={AssetCache.Image.Icons.Phone} alt="" className="promo-box-icon mb-3"/>*/}
-                        {/*        <h5 className="box-title">TELEFON</h5>*/}
-                        {/*        <p className="box-description"><a href="tel:01234567890">123456789</a></p>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
+                        <div className="col-md-4">
+                            <div className="promo-box inner-space text-center">
+                                <img src={AssetCache.Image.Icons.Phone} alt="" className="promo-box-icon mb-3"/>
+                                <h5 className="box-title">TELEFON</h5>
+                                <p className="box-description"><a href="tel:+420 774 861 500" className={"text-white"}>+420 774 861 500</a></p>
+                            </div>
+                        </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className="promo-box inner-space text-center">
                                 <img src={AssetCache.Image.Icons.Envelop} alt="" className="promo-box-icon mb-3"/>
                                 <h5 className="box-title">EMAIL</h5>
