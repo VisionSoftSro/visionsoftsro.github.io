@@ -111,7 +111,7 @@ const createPopupProps = (): Array<PopupProps> => (
                         </li>
                         <li>
                             Umístění reklamy odkazující na Vaše webové stránky na internetových projektech společnosti Vision Soft po dobu jednoho měsíce.
-                            - Po dobu jednoho měsíce - změťn to! umístíme grafickou reklamu do internetové seznamky Seznam se Online s více než 5000 uživateli a do projektu Směr sever - Informační databáze výletních destinací a kulturních tipů severních čech. Databáze s měsíční návštěvností přes 1000 prokliků.
+                            - Po dobu jednoho měsíce umístíme grafickou reklamu do internetové seznamky Seznam se Online s více než 5000 uživateli a do projektu Směr sever - Informační databáze výletních destinací a kulturních tipů severních čech. Databáze s měsíční návštěvností přes 1000 prokliků.
                         </li>
                     </ol>
                     <p><strong>Cena</strong>: 15 000 Kč</p>

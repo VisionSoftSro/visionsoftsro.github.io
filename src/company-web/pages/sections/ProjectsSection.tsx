@@ -24,17 +24,17 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                     </div>
                 </div>
                 <div className="row vcenter">
-                    <div className="col-lg-6 lightbox">
-                        <div className="video-testimonial">
-                            <img src={AssetCache.Image.SMERSEVER} alt="" className="video-testimonial-image"/>
-                        </div>
-                    </div>
                     <div className="col-lg-6">
                         <h3><a href="https://smersever.cz">Směr sever</a></h3>
                         <h4>Informační databáze výletních destinací a kulturních tipů severních čech.</h4>
 
                         Chystáte se na sever čech a chcete podniknout výlet nebo se zůčastnit nějaké kulturní akce? Či na severu čech bydlíte a chcete mít přehled o vašem kraji?
                         Webový portál SMĚR SEVER vás informuje o nejbližších kulturních akcích nejrůznějšího typu a nabízí desítky tipů na nejkrásnější místa severu čech.
+                    </div>
+                    <div className="col-lg-6 lightbox">
+                        <div className="video-testimonial">
+                            <img src={AssetCache.Image.SMERSEVER} alt="" className="video-testimonial-image"/>
+                        </div>
                     </div>
                 </div>
                 <div className="row vcenter">

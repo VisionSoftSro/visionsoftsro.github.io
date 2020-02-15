@@ -2,9 +2,6 @@ import * as React from "react";
 import {SectionComponentProps} from "../theme/Sections";
 import {AssetCache} from "../../AssetCache";
 import Wrapper from "../../../common/component/Wrapper";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import * as faBrand from '@fortawesome/free-brands-svg-icons';
-import * as faIcon from '@fortawesome/free-solid-svg-icons';
 import config from '../../../Config';
 export class ContactSection extends React.Component<SectionComponentProps> {
 
