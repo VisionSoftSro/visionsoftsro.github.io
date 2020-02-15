@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d86b5e8dfd8d1de65432c3a6746d493f",
+    "revision": "3614cf04f1093bf64e9b781a8b2e38b8",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.87dbb54d.chunk.css"
   },
   {
-    "revision": "5db0f0f026c79b3f6556",
+    "revision": "303eeea0757482162a33",
     "url": "/static/css/main.013668a4.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.df0422b3.chunk.js"
   },
   {
-    "revision": "5db0f0f026c79b3f6556",
-    "url": "/static/js/main.5d318742.chunk.js"
+    "revision": "303eeea0757482162a33",
+    "url": "/static/js/main.b1a38967.chunk.js"
   },
   {
     "revision": "aca7b42372bd08e9824e",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/idea-icon-white.0a3649d1.png"
   },
   {
-    "revision": "b093fbb6957469a30f771235d2e750f7",
-    "url": "/static/media/laptop.b093fbb6.png"
+    "revision": "c836854602eb6fffc76545fe15e5944b",
+    "url": "/static/media/laptop.c8368546.png"
   },
   {
     "revision": "2c569cdf8f87194bbbdff4d7d3260b2d",
