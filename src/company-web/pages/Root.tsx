@@ -25,13 +25,15 @@ const sections = () => {
         props: {
             id: "projects"
         }
-    },{
-        name: Strings.Contact,
-        component: ContactSection,
-        props: {
-            id: "contact"
-        }
-    }];
+    },
+        // {
+        //     name: Strings.Contact,
+        //     component: ContactSection,
+        //     props: {
+        //         id: "contact"
+        //     }
+        // }
+    ];
     return sections;
 };
 
@@ -40,10 +42,10 @@ class Root extends React.Component<LocaleState> {
 
 
     componentDidMount(): void {
-        this.changeLocale(DataStorage.get("locale")||"cs");
+        this.changeLocale(DataStorage.get("locale") || "cs");
     }
 
-    changeLocale = (locale:string) => {
+    changeLocale = (locale: string) => {
         this.props.dispatch(changeLocale(locale));
     };
 
@@ -51,7 +53,7 @@ class Root extends React.Component<LocaleState> {
         const s = sections();
         return <Wrapper>
             <Header sections={s}/>
-            {s.map(i=><i.component {...i.props} key={`section-${i.props.id}`}/>)}
+            {s.map(i => <i.component {...i.props} key={`section-${i.props.id}`}/>)}
             <footer className="bg-white">
                 <div className="container text-center">
                     <div className="row">
@@ -69,4 +71,5 @@ class Root extends React.Component<LocaleState> {
         </Wrapper>;
     }
 }
-export default connect((state:WebReducersState) => state.locale)(Root);
+
+export default connect((state: WebReducersState) => state.locale)(Root);
