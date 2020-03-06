@@ -26,13 +26,13 @@ const sections = () => {
             id: "projects"
         }
     },
-        // {
-        //     name: Strings.Contact,
-        //     component: ContactSection,
-        //     props: {
-        //         id: "contact"
-        //     }
-        // }
+        {
+            name: Strings.Contact,
+            component: ContactSection,
+            props: {
+                id: "contact"
+            }
+        }
     ];
     return sections;
 };
