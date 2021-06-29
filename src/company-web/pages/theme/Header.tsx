@@ -65,7 +65,7 @@ export class Header extends React.Component<Props> {
                 </div>
 
                 <nav id="nav-scroll"
-                     className={cs("navbar navbar-contained navbar-content navbar-expand-lg navbar-light bg-white menu-line menu-rounded fixed-top has-top-menu-big", this.state.onTop?"is-hidden":"nav-scroll")}
+                     className={cs("navbar navbar-contained navbar-content navbar-expand-lg navbar-light bg-white menu-line menu-rounded fixed-top", this.state.onTop?"is-hidden":"nav-scroll")}
                      data-nav-status="scroll">
                     <div className="container">
                         <Link className="navbar-brand" href=""><img src={AssetCache.Image.Logo} alt=""/></Link>
@@ -95,7 +95,7 @@ export class Header extends React.Component<Props> {
                             <div className="col-md-6 header-content-left">
                                 <h1>Vision Soft</h1>
                                 <h3 className="mb-3">BUDOUCNOST MÍŘÍ K MYSLI</h3>
-                                <p className="header-text hide-mobile">import/export, technology merchant, smart home/energy saver</p>
+                                <p className="header-text">import/export, technology merchant, smart home/energy saver</p>
                                 {/*<a className="btn btn-info mr-3 smooth-scroll" href="#about">Learn More</a>*/}
                                 {/*<a className="btn btn-info mr-3 smooth-scroll" href="#services">Services</a>*/}
                             </div>
