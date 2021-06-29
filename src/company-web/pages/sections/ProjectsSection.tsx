@@ -12,19 +12,6 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                 <div className="spacer">&nbsp;</div>
                 <div className="row vcenter">
                     <div className="col-lg-6">
-                        <h3><a href="https://seznamseonline.cz">Seznam se Online</a></h3>
-                        Seznamování přes internet je velký fenomén dnešní doby. Seznam se Online je bezkonkurenční česká online seznamka cílená na snadné seznámení.
-                        Mezi hlavní přednosti a výhody seznamky proti konkurenci patří nulové poplatky, transparentnost všech funkcí
-                        a rychlé založení profilu bez zdlouhavého vyplňování.
-                    </div>
-                    <div className="col-lg-6 lightbox">
-                        <div className="video-testimonial">
-                            <img src={AssetCache.Image.SSO} alt="" className="video-testimonial-image"/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row vcenter">
-                    <div className="col-lg-6">
                         <h3><a href="https://smersever.cz">Směr sever</a></h3>
                         <h4>Informační databáze výletních destinací a kulturních tipů severních čech.</h4>
 
