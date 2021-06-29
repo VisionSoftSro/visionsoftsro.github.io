@@ -12,6 +12,11 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                 <div className="spacer">&nbsp;</div>
                 <div className="row vcenter">
                     <div className="col-lg-6">
+                        <h3><a href="https://www.alexalab.cz/">Alexa LAB</a></h3>
+                    </div>
+                </div>
+                <div className="row vcenter">
+                    <div className="col-lg-6">
                         <h3><a href="https://smersever.cz">Směr sever</a></h3>
                         <h4>Informační databáze výletních destinací a kulturních tipů severních čech.</h4>
 
