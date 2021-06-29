@@ -14,12 +14,6 @@ import moment from "moment";
 
 const sections = () => {
     const sections: Array<SectionType> = [{
-        name: Strings.Offers,
-        component: OffersSection,
-        props: {
-            id: "offers"
-        }
-    }, {
         name: Strings.Projects,
         component: ProjectsSection,
         props: {
