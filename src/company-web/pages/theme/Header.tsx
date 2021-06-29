@@ -65,7 +65,7 @@ export class Header extends React.Component<Props> {
                 </div>
 
                 <nav id="nav-scroll"
-                     className={cs("navbar navbar-contained navbar-content navbar-expand-lg navbar-light bg-white menu-line menu-rounded fixed-top", this.state.onTop?"is-hidden":"nav-scroll")}
+                     className={cs("navbar navbar-contained navbar-content navbar-expand-lg navbar-light bg-white menu-line menu-rounded has-top-menu-big fixed-top", this.state.onTop?"is-hidden":"nav-scroll")}
                      data-nav-status="scroll">
                     <div className="container">
                         <Link className="navbar-brand" href=""><img src={AssetCache.Image.Logo} alt=""/></Link>
