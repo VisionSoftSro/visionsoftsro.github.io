@@ -7,9 +7,16 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
     render() {
         return <section id={this.props.id} className="bg-white">
             <div className="container">
-                <h2 className="text-center">Naše projekty</h2>
+                <h2 className="text-center">O nás</h2>
                 <div className="spacer spacer-line border-primary">&nbsp;</div>
                 <div className="spacer">&nbsp;</div>
+                <div className="row vcenter" style={{marginBottom:"20px"}}>
+                    <div className="col-lg-12">
+                        Jsme Vision Soft - společnost působící na trhu od roku 2016.<br/>
+                        Zaměřujeme se na import/export, prodej a marketing.<br/>
+                        Naším cílem je pomáhat lidem snižovat spotřebu energií bez ztráty komfortu pomocí technologických produktů.
+                    </div>
+                </div>
                 <div className="row vcenter">
                     <div className="col-lg-6">
                         <h3><a href="https://www.alexalab.cz/">Alexa LAB</a></h3>
@@ -31,13 +38,12 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                 </div>
                 <div className="row vcenter">
                     <div className="col-lg-6">
-                        <h3><a href="https://oslavyadarky.cz">OSLAVY A DÁRKY.CZ</a></h3>
-                        Pořádáte dětskou oslavu a sháníte dětské dárky?
-                        Dekorace pro dětské oslavy a dárky pro děti. Vše na jednom místě!
+                        <h3><a href="https://www.energyupgrade.cz/">Energy Upgrade</a></h3>
+                        Vytvořte si chytrou a energeticky úspornou domácnost i s pomocí solární energie nejen na vaší zahradě.
                     </div>
                     <div className="col-lg-6 lightbox">
                         <div className="video-testimonial">
-                            <img src={AssetCache.Image.OSLAVYADARKY} alt="" className="video-testimonial-image"/>
+                            <img src={AssetCache.Image.ENERGY_UPGRADE} alt="" className="video-testimonial-image"/>
                         </div>
                     </div>
                 </div>

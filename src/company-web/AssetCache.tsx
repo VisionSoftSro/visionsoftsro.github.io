@@ -5,6 +5,7 @@ export const AssetCache = {
     SSO:require('./assets/images/sso.png'),
     OSLAVYADARKY:require('./assets/images/oslavyadarky.jpg'),
     SMERSEVER:require('./assets/images/smersever.jpg'),
+    ENERGY_UPGRADE:require('./assets/images/energy_upgrade.jpg'),
     LUKAS:require('./assets/images/lukas.jpg'),
     DAN:require('./assets/images/dan.jpg'),
     Icons: {
