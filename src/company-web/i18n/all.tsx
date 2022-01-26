@@ -1,7 +1,7 @@
 export default {
     cs: {
         Offers:"Pro vás",
-        Projects:"Naše projekty",
+        Projects:"O nás",
         Contact:"Kontakt"
     },
     en: {
