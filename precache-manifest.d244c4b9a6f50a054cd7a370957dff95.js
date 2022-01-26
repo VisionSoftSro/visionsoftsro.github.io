@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3e48b9183e1cf5a7532580dc271b94e",
+    "revision": "69ef9c88cd9226072fdf344ae302eccf",
     "url": "/index.html"
   },
   {
-    "revision": "1ecd7a61e28e107499bb",
+    "revision": "8700be731a9c37f06004",
     "url": "/static/css/2.08d04650.chunk.css"
   },
   {
-    "revision": "579d756fe249f2b278e6",
+    "revision": "4fce6fc7f0587e03222a",
     "url": "/static/css/main.98d9dfb3.chunk.css"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/font/Material-Design-Iconic-Font.d2a55d33.woff"
   },
   {
-    "revision": "1ecd7a61e28e107499bb",
-    "url": "/static/js/2.d396260f.chunk.js"
+    "revision": "8700be731a9c37f06004",
+    "url": "/static/js/2.5ca508de.chunk.js"
   },
   {
-    "revision": "579d756fe249f2b278e6",
-    "url": "/static/js/main.d7241020.chunk.js"
+    "revision": "4fce6fc7f0587e03222a",
+    "url": "/static/js/main.66cd750b.chunk.js"
   },
   {
     "revision": "aca7b42372bd08e9824e",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "84bb2edbeea4ada3612a478ad73f46c4",
     "url": "/static/media/email-icon-white.84bb2edb.png"
+  },
+  {
+    "revision": "c0aaf3846afeb6c29b38c9b2ae422dc7",
+    "url": "/static/media/energy_upgrade.c0aaf384.jpg"
   },
   {
     "revision": "e5e3f7e959a7854c1ab5c23ad9f3f426",
