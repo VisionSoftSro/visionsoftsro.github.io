@@ -19,7 +19,13 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                 </div>
                 <div className="row vcenter">
                     <div className="col-lg-6">
-                        <h3><a href="https://www.alexalab.cz/">Alexa LAB</a></h3>
+                        <h3><a href="https://www.energyupgrade.cz/">Energy Upgrade</a></h3>
+                        Vytvořte si chytrou a energeticky úspornou domácnost i s pomocí solární energie nejen na vaší zahradě.
+                    </div>
+                    <div className="col-lg-6 lightbox">
+                        <div className="video-testimonial">
+                            <img src={AssetCache.Image.ENERGY_UPGRADE} alt="" className="video-testimonial-image"/>
+                        </div>
                     </div>
                 </div>
                 <div className="row vcenter">
@@ -36,17 +42,7 @@ export class ProjectsSection extends React.Component<SectionComponentProps> {
                         </div>
                     </div>
                 </div>
-                <div className="row vcenter">
-                    <div className="col-lg-6">
-                        <h3><a href="https://www.energyupgrade.cz/">Energy Upgrade</a></h3>
-                        Vytvořte si chytrou a energeticky úspornou domácnost i s pomocí solární energie nejen na vaší zahradě.
-                    </div>
-                    <div className="col-lg-6 lightbox">
-                        <div className="video-testimonial">
-                            <img src={AssetCache.Image.ENERGY_UPGRADE} alt="" className="video-testimonial-image"/>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </section>
     }
